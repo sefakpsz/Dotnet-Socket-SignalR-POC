@@ -1,0 +1,17 @@
+{
+    "vscode_custom_css.imports": [
+        "file:///Users/coino/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.14/synthwave-x-fluoromachine.css"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "finanskolik",
+            "database": "finance",
+            "username": "admin",
+            "password": "admin"
+        }
+    ]
+}

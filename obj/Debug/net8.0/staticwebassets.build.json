@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bv8mRbRUIvv1y0UfoRDVESnvpLQuucpN1SCx05HtZlg=",
+  "Source": "SignalR-Poc",
+  "BasePath": "_content/SignalR-Poc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
