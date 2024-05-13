@@ -20,7 +20,7 @@ public class SocketController(ISocketService socketService) : ControllerBase
     }
 
     [HttpPost("broadcast_data")]
-    public async Task<IActionResult> BroadcastData([Required] SocketModel request)
+    public async Task<IActionResult> BroadcastData([Required] SocketModel<DataType1> request)
     {
         await _socketService.DataCreated(request);
         return Ok();

@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using SignalR_Poc.Constants;
 using SignalR_Poc.Extensions;
 using SignalR_Poc.Hubs;
+using SignalR_Poc.Models;
 
 namespace SignalR_Poc.Services
 {
@@ -15,7 +16,7 @@ namespace SignalR_Poc.Services
             await _hubContext.Clients.All.DataCreated(message.EnumToString());
         }
 
-        public async Task DataCreated<T>(T data) where T : class
+        public async Task DataCreated<T>(SocketModel<T> data)
         {
             var jsonData = JsonConvert.SerializeObject(data);
 

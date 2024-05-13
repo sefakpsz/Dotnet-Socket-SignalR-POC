@@ -1,5 +1,3 @@
-using SignalR_Poc.Constants;
-
 namespace SignalR_Poc.Hubs
 {
     public interface ISignalRHub
