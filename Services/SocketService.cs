@@ -6,14 +6,9 @@ using SignalR_Poc.Hubs;
 
 namespace SignalR_Poc.Services
 {
-    public class SocketService : ISocketService
+    public class SocketService(IHubContext<SignalRHub, ISignalRHub> hubContext) : ISocketService
     {
-        private readonly IHubContext<SignalRHub, ISignalRHub> _hubContext;
-
-        public SocketService(IHubContext<SignalRHub, ISignalRHub> hubContext)
-        {
-            _hubContext = hubContext;
-        }
+        private readonly IHubContext<SignalRHub, ISignalRHub> _hubContext = hubContext;
 
         public async Task DataCreated(DataTypes message)
         {

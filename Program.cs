@@ -32,10 +32,3 @@ app.UseRouting();
 app.MapControllers();
 
 app.Run();
-
-/*
-
-Connection Text For Postman --> {"protocol":"json","version":1}
-Sending Message Text For Postman --> {"arguments":["Test message"],"invocationId":"0","target":"SendMessage","type":1}
-
-*/

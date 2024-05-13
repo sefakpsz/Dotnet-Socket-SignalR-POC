@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalR-Poc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf57eda96b9c2d483b4c40866bb58b6183294d0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalR-Poc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalR-Poc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
